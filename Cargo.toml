@@ -1,15 +1,18 @@
 [package]
-name = "rstdms"
-version = "0.1.0"
 authors = ["Adam Reeve <adreeve@gmail.com>"]
 edition = "2018"
+name = "rstdms"
+version = "0.1.0"
 
 [dependencies]
 byteorder = "1.4.3"
-num_enum = "0.5.1"
-id-arena = "2.2.1"
-clap = "2.33.0"
 chrono = "0.4.19"
+clap = "2.33.0"
+eframe = "*"
+flexi_logger = "^0.13.2"
+id-arena = "2.2.1"
+num_enum = "0.5.1"
+rfd = "0.4.3"
 
 [dev-dependencies]
 hex-literal = "0.3.1"
